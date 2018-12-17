@@ -43,7 +43,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('http://localhost:3000')
+    fetch('https://serene-oasis-65374.herokuapp.com/')
       .then(response => response.json())
       .then(console.log)
       .catch(err => console.log(err));
